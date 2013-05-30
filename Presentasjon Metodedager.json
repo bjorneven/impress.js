@@ -1,0 +1,301 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "src": "http://www.ren.no/ren2-theme/css/images/renlogo.png",
+          "type": "Image",
+          "x": 369,
+          "y": 325,
+          "scale": {
+            "x": 1.511764705882353,
+            "y": 1.511764705882353,
+            "width": 257,
+            "height": 86.17058823529412
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 42,
+          "y": 81,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Lato', sans-serif\">Rasjonell Elektrisk Nettvirksomhet<br></font>",
+          "size": 62,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -1.58,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 563,
+      "y": 26
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 59,
+          "y": 74,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<br>",
+          "size": 55,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 98,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Energiforsyningens ledende<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kompetansesenter<br>",
+          "size": 75,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 344,
+          "y": 359,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "13 ansatte<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 264,
+          "y": 520,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Eid av bransjen<br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 560,
+      "y": 223
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 63,
+          "y": 144,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "RENs anbefalinger <br>&nbsp; og retningslinjer<br>&nbsp; &nbsp;&nbsp; er førende<br>",
+          "size": 107,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.02,
+      "rotateY": 0.7,
+      "rotateZ": 0.33,
+      "selected": false,
+      "active": false,
+      "x": 502,
+      "y": 456
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 60,
+          "y": 45,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Web-baserte systemer som<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 79,
+          "y": 259,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Prosjektsystem</li><li>RENblad</li><li>Tilstandskontroll<br></li></ul>",
+          "size": 123,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.02,
+      "rotateY": 0.7,
+      "rotateZ": 0.31,
+      "selected": false,
+      "active": false,
+      "x": 794,
+      "y": 466
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "src": "http://www.ren.no/",
+          "type": "WebFrame",
+          "x": 20,
+          "y": 3,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.35,
+      "rotateY": 0.78,
+      "rotateZ": 0.23,
+      "selected": false,
+      "active": false,
+      "x": 1068,
+      "y": 480
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 71,
+          "y": 31,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kompetanseutvikling",
+          "size": 94,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1372,
+      "y": 476
+    }
+  ],
+  "background": "defaultbg",
+  "activeSlide": {
+    "num": 1,
+    "components": [
+      {
+        "TextBox": {},
+        "x": 59,
+        "y": 74,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<br>",
+        "size": 55,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 46,
+        "y": 98,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Energiforsyningens ledende<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kompetansesenter<br>",
+        "size": 75,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 344,
+        "y": 359,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "13 ansatte<br>",
+        "size": 72,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 264,
+        "y": 520,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Eid av bransjen<br>",
+        "size": 72,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "selected": true,
+    "active": true,
+    "x": 560,
+    "y": 223
+  },
+  "fileName": "Presentasjon Metodedager",
+  "surface": "surf-grad-bg-smoke",
+  "overviewX": 937,
+  "overviewY": 253
+}

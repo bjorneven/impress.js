@@ -1,0 +1,170 @@
+
+/** CSS Stylesheet for paamelding forms */
+.kursInfoPopup {
+    position: absolute;
+    z-index: 1001;
+    width: 850px;
+    height: 560px;
+    padding: 0px; 
+    z-index: 1000; 
+    background: #FFFFFF; 
+    border: 1px solid #d9d9d9; 
+    color: #565656;
+}
+
+.kursinfocol1 {
+	width: 150px;	
+}
+
+.kursinfocol2 {
+	width: 350px;	
+}
+
+.prislistecol1 {
+	width: 150px;	
+}
+
+.prislistecol2 {
+	width: 50px;	
+}
+
+.iceDatTbl td span.iceOutTxt {
+    padding: 1px 1px 1px 4px  !important;
+}
+
+.iceOutLbl {
+    padding: 1px 1px 1px 4px  !important;
+}
+
+.meldpaabutton
+{
+    background-color: #7FB437;
+    border: medium none;
+    color: #FFFFFF;
+    display: table;
+    margin: 0 2px 2px;
+    min-width: 70px;
+}
+
+.meldpaabutton-dis
+{
+    background-color: #EEEEEE;
+    border: medium none;
+    color: #FFFFFF;
+    display: table;
+    margin: 0 2px 2px;
+    min-width: 70px;
+}
+
+.kursInfoBody {
+    margin-top: 25px;
+    width: 100%;
+    text-align: left;
+}
+
+/*.kursScrollbar
+{
+	
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-darkshadow-color: #7fb437;
+	scrollbar-shadow-color: #FFFFFF;
+	scrollbar-3dlight-color: #7fb437;
+	scrollbar-arrow-color: #7fb437;
+	scrollbar-track-color: #7fb437;
+	scrollbar-highlight-color: #7fb437;
+
+}*/
+
+/*
+----------- PanelPopup & panelTooltip ----------
+*/
+
+#kursInfoPnlPop .icePnlPop, .icePnlTlTip {
+    padding: 0px;
+    z-index: 1000;
+    background: #FFFFFF;
+    border: 1px solid #d9d9d9;
+    color: #565656;
+}
+
+#kursInfoPnlPop .icePnlPopHdr, .icePnlTlTipHdr {
+    height: 3em;
+    color: #FFFFFF;
+    /*background: #FFF url(css-images/PnlHdr_bgslice.gif) repeat-x top left;*/
+    background: #7fb437;
+    border-bottom: 1px solid #d9d9d9;
+}
+
+#kursInfoPnlPop .icePnlPopHdr .iceOutTxt, .icePnlTlTipHdr .iceOutTxt {
+    padding: 6px;
+    font-weight: normal;
+    font-size: 14px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+#kursInfoPnlPop .icePnlPopBody, .icePnlTlTipBody {
+    padding: 10px;
+}
+
+#kursInfoPnlPop .icePnlPopFtr, .icePnlTlTipFtr {
+    float: right;
+    height: auto;
+    background-color: #DDDDDD;
+}
+
+#kursInfoPnlPop .popupTopTextDrag, .popupTopTextModal {
+    margin: 2px 0 0 4px;
+    display: inline;
+    float: left;
+}
+
+#kursInfoPnlPop .popupTopClose, .popupTopCloseModal {
+    vertical-align: middle;
+    margin: 4px;
+    display: inline;
+    float: right;
+}
+
+#kursInfoPnlPop .popupContentText {
+    display: block;
+}
+
+.portlet-boundary {
+	position: static !important;
+} 
+
+.messageStatus {
+    font-weight: bold;
+    color: #7FB437;
+    font-size: 1em;
+}
+
+.messageError {
+    font-weight: bold;
+    color: RED;
+    font-size: 1em;
+}
+
+.paameldingTitle {
+    font-weight: normal;
+    color: gray;
+    font-size: 1.2em;
+}
+
+.stepActive {
+    font-weight: bold;
+    color: #7FB437;
+    font-size: 1.2em;
+}
+
+.stepInActive {
+    font-weight: normal;
+    color: #565656;
+    font-size: 1.2em;
+}
+
+
+.aktivitetTekst {
+	width: 450px;
+}
