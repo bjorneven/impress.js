@@ -102,8 +102,8 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "x": 560,
       "y": 223
     },
@@ -214,6 +214,60 @@
           "text": "Kompetanseutvikling",
           "size": 94,
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ZcKD8Xr.jpg",
+          "type": "Image",
+          "x": 53,
+          "y": 165,
+          "scale": {
+            "x": 0.71796875,
+            "y": 0.71796875,
+            "width": 919,
+            "height": 608.8375000000001
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 1372,
+      "y": 476
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 6,
+          "y": 53,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Åpne og bedriftsinterne kurs<br>",
+          "size": 81,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 253,
+          "y": 439,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kursavtaler med <br>opplæringsplan<br>",
+          "size": 72,
+          "selected": false
         }
       ],
       "z": 0,
@@ -223,64 +277,39 @@
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 1372,
-      "y": 476
+      "x": 990,
+      "y": 240
     }
   ],
   "background": "defaultbg",
   "activeSlide": {
-    "num": 1,
+    "num": 5,
     "components": [
       {
         "TextBox": {},
-        "x": 59,
-        "y": 74,
+        "x": 71,
+        "y": 31,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<br>",
-        "size": 55,
+        "text": "Kompetanseutvikling",
+        "size": 94,
         "selected": false
       },
       {
-        "TextBox": {},
-        "x": 46,
-        "y": 98,
+        "src": "http://i.imgur.com/ZcKD8Xr.jpg",
+        "type": "Image",
+        "x": 53,
+        "y": 165,
         "scale": {
-          "x": 1,
-          "y": 1
+          "x": 0.71796875,
+          "y": 0.71796875,
+          "width": 919,
+          "height": 608.8375000000001
         },
-        "type": "TextBox",
-        "text": "Energiforsyningens ledende<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kompetansesenter<br>",
-        "size": 75,
-        "selected": false
-      },
-      {
-        "TextBox": {},
-        "x": 344,
-        "y": 359,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "type": "TextBox",
-        "text": "13 ansatte<br>",
-        "size": 72,
-        "selected": false
-      },
-      {
-        "TextBox": {},
-        "x": 264,
-        "y": 520,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "type": "TextBox",
-        "text": "Eid av bransjen<br>",
-        "size": 72,
+        "imageType": "JPG",
         "selected": false
       }
     ],
@@ -291,8 +320,8 @@
     "rotateZ": 0,
     "selected": true,
     "active": true,
-    "x": 560,
-    "y": 223
+    "x": 1372,
+    "y": 476
   },
   "fileName": "Presentasjon Metodedager",
   "surface": "surf-grad-bg-smoke",

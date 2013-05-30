@@ -1,250 +1,326 @@
 <!DOCTYPE html>
-<html style="height: 100%;" lang="en"><head>
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, minimum-scale=1, maximum-scale=1, user-scalable=no">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<title>Deck Title</title>
-
-<meta name="description" content="TODO">
-<meta name="author" content="TODO">
-
-<style>
-.componentContainer {
-    position: absolute;
-    line-height: normal;
-    /*-webkit-transform-origin: 135% 135%;
-    -moz-transform-origin: 135% 135%;
-    transform-origin: 135% 135%;*/
-}
-
-.transformContainer {
-    -webkit-transform-origin: 0 0;
-    -moz-transform-origin: 0 0;
-    transform-origin: 0 0;
-}
-
-.bg {
-    width: 100%;
-    height: 100%;
-}
-</style>
-<link href="Filer_for_index/main.css" rel="stylesheet">
-<link href="Filer_for_index/web-fonts.css" rel="stylesheet" type="text/css">
-<link href="Filer_for_index/backgroundClasses.css" rel="stylesheet" type="text/css">
-<link href="Filer_for_index/surfaceClasses.css" rel="stylesheet" type="text/css">
-<script type="text/javascript" src="Filer_for_index/impress.js"></script>
-
-<link rel="shortcut icon" href="http://strut.io/dist/favicon.png">
-<link rel="apple-touch-icon" href="http://strut.io/dist/apple-touch-icon.png">
-</head>
-<body style="height: 100%; overflow: hidden;" class="surf-grad-bg-smoke impress-supported impress-enabled impress-on-step-3">
-
-<!-- This is a work around / hack to get the user's browser to download the fonts 
- if they decide to save the presentation. -->
-<div style="visibility: hidden; width: 0px; height: 0px">
-<img src="Filer_for_index/Lato-Bold.woff">
-<img src="Filer_for_index/HammersmithOne.woff">
-<img src="Filer_for_index/Gorditas-Regular.woff">
-<img src="Filer_for_index/FredokaOne-Regular.woff">
-<img src="Filer_for_index/Ubuntu.woff">
-<img src="Filer_for_index/Ubuntu-Bold.woff">
-<img src="Filer_for_index/PressStart2P-Regular.woff">
-<img src="Filer_for_index/Lato-BoldItalic.woff">
-<img src="Filer_for_index/AbrilFatface-Regular.woff">
-<img src="Filer_for_index/Lato-Regular.woff">
+<html lang="en"><head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta http-equiv="Cache-Control" content="max-age=0">
+		<meta http-equiv="Cache-Control" content="no-cache">
+		<meta http-equiv="expires" content="0">
+		<meta http-equiv="Expires" content="Tue, 01 Jan 1980 1:00:00 GMT">
+		<meta http-equiv="Pragma" content="no-cache">
+		<title>Strut - Beta</title>
+		<link rel="stylesheet" href="Filer_for_index/main.css">
+		<link rel="stylesheet" type="text/css" href="Filer_for_index/built.css">
+	<script src="Filer_for_index/amd-app.js" data-requiremodule="amd-app" data-requirecontext="_" async="" charset="utf-8" type="text/javascript"></script></head>
+	<body>
+		<!--[IF IE]>
+			<div class="container">
+			<div class="alert alert-success">
+				Internet Explorer does not support the 3-D transitions required by <strong>Strut</strong>.
+				<br/>
+				<br/>
+				<strong>Strut</strong> currenly only works in <a href="http://www.mozilla.org/en-US/firefox/new/">Firefox</a>, <a href="https://www.google.com/intl/en/chrome/browser/">Chrome</a> and <a href="http://support.apple.com/kb/DL1531">Safari</a>.
+				<br/>
+				We do hope to support IE 10 sometime in the future.
+				<br/><br/>
+				Sorry for the inconvenience.
+			</div>
+			</div>
+		<![endif]-->
+		<script>
+		window.isOptimized = true;
+		if (!Function.prototype.bind) {
+			Function.prototype.bind = function(ctx) {
+		    	var fn;
+    			fn = this;
+    			return function() {
+      				return fn.apply(ctx, arguments);
+    			};
+  			};
+  		}
+		</script>
+		<script data-main="scripts/amd-app" src="Filer_for_index/require.js"></script>
+		<div id="modals">
+		<div aria-hidden="true" style="display: none;" class="itemGrabber modal hide"><div class="modal-header">
+	<button class="close" data-dismiss="modal">×</button>
+	<h3>Insert Image</h3>
 </div>
+<div class="modal-body" style="overflow: hidden">
+	<div class="alert alert-error dispNone">
+  		<button class="close" data-dismiss="alert">×</button>
+  		The image URL you entered appears to be incorrect
+	</div>
+	<h4>URL:</h4><div class="form-inline"><input name="itemUrl" type="text">&nbsp;<div data-option="browse" class="btn">Browse</div>
+	<p><em>*Local images are currently uploaded to imgur.<br>We're working on changing this.</em></p></div>
+	<input style="display:none" type="file">
+	<h4>Preview:</h4>
+	<ul class="thumbnails">
+		<li class="span4">
+			<div class="thumbnail">
+				<img src="Filer_for_index/ZcKD8Xr.jpg" class="preview" height"268"="" width="360">
+			</div>
+			<div class="progress active progress-striped dispNone">
+  				<div style="width: 89.8679%;" class="bar"></div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn btn-primary ok btn-inverse">Insert Image</a>
+</div></div><div aria-hidden="true" style="display: none;" class="itemGrabber modal hide"><div class="modal-header">
+	<button class="close" data-dismiss="modal">×</button>
+	<h3>Insert Video</h3>
+</div>
+<div class="modal-body" style="overflow: hidden"><div class="alert alert-success">Supports <strong>webm &amp; YouTube</strong>.<br>Try out: http://www.youtube.com/watch?v=vHUsdkmr-SM</div>
+	<div class="alert alert-error dispNone">
+  		<button class="close" data-dismiss="alert">×</button>
+  		The image URL you entered appears to be incorrect
+	</div>
+	<h4>URL:</h4><div class="form-inline"><input name="itemUrl" type="text">&nbsp;</div>
+	<input style="display:none" type="file">
+	<h4>Preview:</h4>
+	<ul class="thumbnails">
+		<li class="span4">
+			<div class="thumbnail">
+				<video tabindex="0" class="preview" height"268"="" width="360"></video>
+			</div>
+			<div class="progress active progress-striped dispNone">
+  				<div class="bar"></div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn btn-primary ok btn-inverse">Insert Video</a>
+</div></div><div aria-hidden="true" style="display: none;" class="itemGrabber modal hide"><div class="modal-header">
+	<button class="close" data-dismiss="modal">×</button>
+	<h3>Insert Website</h3>
+</div>
+<div class="modal-body" style="overflow: hidden">
+	<div class="alert alert-error dispNone">
+  		<button class="close" data-dismiss="alert">×</button>
+  		The image URL you entered appears to be incorrect
+	</div>
+	<h4>URL:</h4><div class="form-inline"><input name="itemUrl" type="text">&nbsp;</div>
+	<input style="display:none" type="file">
+	<h4>Preview:</h4>
+	<ul class="thumbnails">
+		<li class="span4">
+			<div class="thumbnail">
+				<iframe src="Filer_for_index/a.htm" class="preview" height"268"="" width="360"></iframe>
+			</div>
+			<div class="progress active progress-striped dispNone">
+  				<div class="bar"></div>
+			</div>
+		</li>
+	</ul>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn btn-primary ok btn-inverse">Insert Website</a>
+</div></div><div aria-hidden="true" style="display: none;" class="storageModal modal hide"><div class="modal-header">
+	<button class="close" data-dismiss="modal">×</button>
+	<h3 class="title">Save as...</h3>
+</div>
+<div class="modal-body" style="overflow: hidden">
+	<ul class="nav nav-tabs">
+		
+			<li class="providerTab active"><a data-provider="localstorage">Local Storage</a></li>
+		
+			<li class="providerTab"><a data-provider="remoteStorage">Remote Storage</a></li>
+		
+	</ul>
+	<div class="tabContent">
+	<div class="fileBrowser"><div class="browserContent"><input value="Presentasjon Metodedager" class="fileName" type="text">
+<ul class="nav nav-pills nav-stacked">
+	
+	<li data-filename="presentation-unnamed.strut"><a>presentation-unnamed.strut <button class="close pull-right">×</button></a></li>
+	
+</ul></div></div></div>
+</div>
+<div class="modal-footer">
+	<a href="#" class="btn btn-primary ok btn-inverse">Ok</a>
+</div></div><div aria-hidden="false" style="display: block;" class="tabbedModal modal hide in"><div class="modal-header">
+	<button class="close" data-dismiss="modal">×</button>
+	<h3 class="title">Export...</h3>
+</div>
+<div class="modal-body" style="overflow: hidden">
+	<ul class="nav nav-tabs">
+		
+			<li class="providerTab" data-provider=""><a>JSON</a></li>
+		
+			<li class="providerTab active" data-provider=""><a>Zip</a></li>
+		
+	</ul>
+	<div class="tabContent">
+	<div><div class="alert alert-info">The most effective way to archive your rendered presentation is to:<p></p><ol><li>Click <code>Preview</code></li><li>Press <code>Ctrl+S</code>(windows) or <code>⌘+S</code>(Mac) to save the entire presentation to disk.</li></ol><p></p></div></div></div>
+</div>
+<div class="modal-footer">
+	<a data-downloadurl="application/json:Presentasjon Metodedager.json:blob:0a75ff28-b883-4ed3-ba04-d557cfa5e8a7" download="Presentasjon Metodedager.json" href="blob:0a75ff28-b883-4ed3-ba04-d557cfa5e8a7" class="btn btn-primary ok btn-inverse"></a>
+</div></div></div>
+	
+<div class="dispNone"><input type="file"></div><div class="container-fluid"><div class="row-fluid header"><div class="navbar navbar-inverse span12">
+	<div class="navbar-inner">
+		<ul class="nav">
+			<li class="logo-holder">
+			<div class="logo-group btn-group"><a class="btn logo btn-plast dropdown-toggle" data-toggle="dropdown">
+	<span class="logo-bg"></span>
+    <span class="caret"></span>
+</a>
+<ul class="dropdown-menu">
+<li><a>New </a></li><li><a>Open </a></li><li><a>Save</a></li><li><a>Save as... </a></li><li class="divider"></li><li><a>Undo<span class="label pull-right">Move</span></a></li><li><a>Redo<span class="label pull-right dispNone">Skew X</span></a></li><li class="divider"></li><li><a>Cut <span class="label pull-right">Ctrl+X</span></a></li><li><a>Copy <span class="label pull-right">Ctrl+C</span></a></li><li><a>Paste <span class="label pull-right">Ctrl+V</span></a></li><li class="divider"></li><li><a>Import... </a></li><li><a>Export... </a></li></ul></div></li>
+			<li class="divider-vertical">
+			</li>
+		</ul>
+		<ul class="nav" style="margin-left: 5%">
+			<li class="create-comp-buttons">
+				<div class="btn-group iconBtns">
+				<a data-comptype="TextBox" class="btn btn-plast"><i class="icon-text-width icon-white"></i>Text</a><a data-comptype="Image" class="btn btn-plast"><i class="icon-picture icon-white"></i>Image</a><a data-comptype="Video" class="btn btn-plast"><i class="icon-film icon-white"></i>Video</a><a data-comptype="WebFrame" class="btn btn-plast"><i class="icon-globe icon-white"></i>Website</a></div>
+			</li>
+		</ul>
+		<ul class="nav theme-buttons">
+		<div class="themeProviders" activemode="[object Object]" modeid="slide-editor" header="[object Object]"><div class="dropdown btn-group iconBtns"><a class="btn btn-plast dropdown-toggle" data-toggle="dropdown">
+	<i class="icon-tint icon-white"></i>
+	Background</a>
+<ul class="dropdown-menu horizontalDropdown" role="menu" style="min-width: 127px; width: 127px">
 
-<div class="fallback-message">
-    <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
-    <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser.</p>
-</div>
-<div class="bg">
-<div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 500ms ; transform-style: preserve-3d; top: 50%; left: 50%; transform: perspective(3000px) scale(0.333333);" id="impress"><div style="position: absolute; transform-origin: left top 0px; transition: all 1000ms ease-in-out 0ms ; transform-style: preserve-3d; transform: rotateZ(-18.9076deg) rotateY(-40.107deg) rotateX(-1.14592deg) translate3d(-6853.97px, -6225.92px, 0px);">
+<li><a class="solid-bg-black thumbnail" alt="Black" data-class="solid-bg-black"></a></li>
 
+<li><a class="solid-bg-light thumbnail" alt="Light" data-class="solid-bg-light"></a></li>
 
+<li><a class="solid-bg-smoke thumbnail" alt="Smoke" data-class="solid-bg-smoke"></a></li>
 
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(7686.83px, 354.987px, 0px) rotateX(0deg) rotateY(-90.5273deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-1" class="step future" data-x="7686.826666666667" data-y="354.9866666666667" data-rotate-y="-90.52733163067008" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
+<li><a class="solid-bg-orange thumbnail" alt="Orange" data-class="solid-bg-orange"></a></li>
 
-<div class="componentContainer" style="top: 325px; left: 369px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: 257px; height: 86.17px;">
-<div class="transformContainer" style="-webkit-transform: scale(1.51, 1.51);
--moz-transform: scale(1.51, 1.51);
-transform: scale(1.51, 1.51)">
-<img src="Filer_for_index/renlogo.png">
-</div>
-</div>
+<li><a class="solid-bg-yellow thumbnail" alt="Yellow" data-class="solid-bg-yellow"></a></li>
 
-<div class="componentContainer" style="top: 81px; left: 42px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 62px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-<font face="'Lato', sans-serif">Rasjonell Elektrisk Nettvirksomhet<br></font>
-</div>
-</div>
-</div>
+<li><a class="solid-bg-grass thumbnail" alt="Grass" data-class="solid-bg-grass"></a></li>
 
-</div>
+<li><a class="solid-bg-darkgreen thumbnail" alt="Dark Green" data-class="solid-bg-darkgreen"></a></li>
 
-</div>
+<li><a class="solid-bg-sky thumbnail" alt="Sky" data-class="solid-bg-sky"></a></li>
 
+<li><a class="solid-bg-lavender thumbnail" alt="Lavender" data-class="solid-bg-lavender"></a></li>
 
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(7645.87px, 3044.69px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-2" class="step past" data-x="7645.866666666667" data-y="3044.693333333333" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
+<li><a class="solid-bg-purple thumbnail" alt="Purple" data-class="solid-bg-purple"></a></li>
 
-<div class="componentContainer" style="top: 74px; left: 59px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 55px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-<br>
-</div>
-</div>
-</div>
+<li><a class="solid-bg-salmon thumbnail" alt="Salmon" data-class="solid-bg-salmon"></a></li>
 
-<div class="componentContainer" style="top: 98px; left: 46px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 75px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-Energiforsyningens ledende<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; kompetansesenter<br>
+<li><a class="nobg thumbnail" data-class="defaultbg"></a></li>
+</ul>
+</div></div></ul>
+		<ul class="nav pull-right">
+			<li class="divider-vertical">
+			</li>
+			<li class="mode-buttons">
+			<div class="btn-group iconBtns dispNone">
+	<a class="btn btn-plast">
+		<i class="icon-th-list icon-white"></i>
+		Slides
+	</a>
+</div><div class="btn-group iconBtns">
+	<a class="btn btn-plast">
+		<i class="icon-th-large icon-white"></i>
+		Overview
+	</a>
+</div><div class="btn-group iconBtns"><button class="btn btn-success act"><i class="icon-play icon-white"></i>Present</button>
+<button class="btn dropdown-toggle btn-success iconBtnsSplit" data-toggle="dropdown">
+  <span class="caret whiteCaret"></span>
+</button>
+<ul class="dropdown-menu">
+	
+    <li data-option="impress"><a>
+    		<span class="check" style="">✓</span>
+    		Impress
+    </a></li>
+    
+    <li data-option="bespoke"><a>
+    		<span class="check" style="visibility: hidden;">✓</span>
+    		Bespoke
+    </a></li>
+    
+</ul></div></li>
+		</ul>
+	</div>
+</div></div><div class="slideEditor row-fluid"><div class="slideWell"><div style="position: relative;"><div class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div style="z-index: 0;" class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div style="z-index: 0;" class="slideSnapshot surf-grad-bg-smoke active"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div><div style="z-index: 0;" class="slideSnapshot surf-grad-bg-smoke"><canvas></canvas>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<span class="badge badge-inverse"> </span></div></div><div style="top: 555px; left: 54.5px;" class="wellContextMenu absolute"><div class="addBtn btn btn-success"><center><i class="icon-plus icon-white"></i></center></div></div></div><div class="operatingTable"><div style="width: 1024px; height: 768px; margin-left: 329.667px; margin-right: 329.667px; transform: scale(1.08464);" class="slideContainer surf-grad-bg-smoke"><div style="z-index: 677; top: 31px; left: 71px; font-size: 94px;" class="component textBox"><div style="transform: scale(1, 1);" class="content-scale">
+<div class="content">Kompetanseutvikling</div>
 </div>
+<span class="topLabel label"> 
+	<span class="skewx" data-delta="skewX">↔</span>
+	<span class="align" data-option="x">↹</span>
+</span>
+<span class="leftLabel label"> 
+	<span class="align" data-option="y">↹</span>
+	<span class="skewy" data-delta="skewY">↔</span>
+</span>
+<span class="rightLabel label rotate" data-delta="rotate">↻</span>
+<span class="scale label" data-delta="scale">↔</span>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<div class="positioningCtrls form-inline">
+	<span class="label leftposition">→</span>
+	<input class="position" data-option="x" value="71" type="text">
+	<span class="label bottomposition">↑</span>
+	<input class="position" data-option="y" value="31" type="text">
 </div>
+</div><div style="z-index: 698; top: 165px; left: 53px; width: 919px; height: 608.838px;" class="component imageView"><div style="transform: scale(0.717969, 0.717969);" class="content-scale">
+<div class="content"><img src="Filer_for_index/ZcKD8Xr.jpg" height="848" width="1280"></div>
 </div>
-
-<div class="componentContainer" style="top: 359px; left: 344px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 72px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-13 ansatte<br>
+<span class="topLabel label"> 
+	<span class="skewx" data-delta="skewX">↔</span>
+	<span class="align" data-option="x">↹</span>
+</span>
+<span class="leftLabel label"> 
+	<span class="align" data-option="y">↹</span>
+	<span class="skewy" data-delta="skewY">↔</span>
+</span>
+<span class="rightLabel label rotate" data-delta="rotate">↻</span>
+<span class="scale label" data-delta="scale">↔</span>
+<span class="close-btn-red-20 removeBtn" title="Remove"></span>
+<div class="positioningCtrls form-inline">
+	<span class="label leftposition">→</span>
+	<input class="position" data-option="x" value="53" type="text">
+	<span class="label bottomposition">↑</span>
+	<input class="position" data-option="y" value="165" type="text">
 </div>
-</div>
-</div>
-
-<div class="componentContainer" style="top: 520px; left: 264px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 72px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-Eid av bransjen<br>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(6853.97px, 6225.92px, 0px) rotateX(1.14592deg) rotateY(40.107deg) rotateZ(18.9076deg) scale(3); transform-style: preserve-3d;" id="step-3" class="step active present" data-x="6853.973333333333" data-y="6225.92" data-rotate-x="1.1459155902616465" data-rotate-y="40.10704565915762" data-rotate-z="18.90760723931717" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
-
-<div class="componentContainer" style="top: 144px; left: 63px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 107px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-RENs anbefalinger <br>&nbsp; og retningslinjer<br>&nbsp; &nbsp;&nbsp; er førende<br>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(10840.7px, 6362.45px, 0px) rotateX(1.14592deg) rotateY(40.107deg) rotateZ(17.7617deg) scale(3); transform-style: preserve-3d;" id="step-4" class="step future" data-x="10840.746666666666" data-y="6362.453333333333" data-rotate-x="1.1459155902616465" data-rotate-y="40.10704565915762" data-rotate-z="17.761691649055518" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
-
-<div class="componentContainer" style="top: 45px; left: 60px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 72px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-Web-baserte systemer som<br>
-</div>
-</div>
-</div>
-
-<div class="componentContainer" style="top: 259px; left: 79px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 123px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-<ul><li>Prosjektsystem</li><li>RENblad</li><li>Tilstandskontroll<br></li></ul>
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(14581.8px, 6553.6px, 0px) rotateX(20.0535deg) rotateY(44.6907deg) rotateZ(13.178deg) scale(3); transform-style: preserve-3d;" id="step-5" class="step future" data-x="14581.76" data-y="6553.6" data-rotate-x="20.05352282957881" data-rotate-y="44.69070802020421" data-rotate-z="13.178029288008934" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
-
-<div class="componentContainer" style="top: 3px; left: 20px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<iframe src="Filer_for_index/a.htm" height="768" width="960"></iframe>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(18732.4px, 6498.99px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(3); transform-style: preserve-3d;" id="step-6" class="step future" data-x="18732.373333333333" data-y="6498.986666666667" data-scale="3">
-<div class="defaultbg" style="width: 1024px; height: 768px">
-
-<div class="componentContainer" style="top: 31px; left: 71px; -webkit-transform:   ; -moz-transform:   ; transform:   ; width: px; height: px;">
-<div class="transformContainer" style="-webkit-transform: scale(1, 1);
--moz-transform: scale(1, 1);
-transform: scale(1, 1)">
-<div style="font-family: ; font-size: 94px;
-			font-weight: ; font-style: ; color: #; text-align: ">
-Kompetanseutvikling
-</div>
-</div>
-</div>
-
-</div>
-
-</div>
-
-
-<div style="position: absolute; transform: translate(-50%, -50%) translate3d(12793.2px, 3454.29px, 0px) rotateX(0deg) rotateY(0deg) rotateZ(0deg) scale(9); transform-style: preserve-3d;" id="overview" class="step active future" data-x="12793.173333333334" data-y="3454.2933333333335" data-scale="9"></div>
-</div></div>
-<div class="hint">
-    <p>Use a spacebar or arrow keys to navigate</p>
-</div>
-<script>
-if ("ontouchstart" in document.documentElement) { 
-    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
-}
-</script>
-
-
-</div>
-<script>
-if (!window.presStarted) {
-    startPres(document, window);
-    pres().init();   
-}
-</script>
-
-</body></html>
+</div></div></div></div></div><div style="display: none; top: 312.668px; left: 1053px;" class="etch-editor-panel"><div class="btn-group"><a href="#" class="btn btn-small etch-bold" title="bold"><span>B</span></a><a href="#" class="btn btn-small etch-italic" title="italic"><span>I</span></a></div><div class="btn-group"><a href="#" class="btn btn-small etch-unordered-list" title="unordered list"><span></span></a><a href="#" class="btn btn-small etch-ordered-list" title="ordered list"><span></span></a></div><div class="btn-group"><a href="#" class="btn btn-small etch-justify-left" title="justify left"><i class="icon-align-left"></i></a><a href="#" class="btn btn-small etch-justify-center" title="justify center"><i class="icon-align-center"></i></a></div><div class="btn-group"><a href="#" class="btn btn-small etch-link" title="link"><span></span></a></div><div class="btn-group">
+	<button class="btn btn-inverse dropdown-toggle btn-small fontFamilyBtn" data-toggle="dropdown" title="Choose the font family"><span class="text">Helvetica Neue</span><span class="caret"></span></button>
+	<ul class="dropdown-menu menuBarOption" data-option="fontFamily">
+		<li>
+                  <a class="lato" href="#" data-value="'Lato', sans-serif">Lato</a>
+                  <a class="ubuntu" href="#" data-value="'Ubuntu', sans-serif">Ubuntu</a>
+                  <a class="abril" href="#" data-value="'Abril Fatface', cursive">Abril</a>
+                  <a class="hammersmith" href="#" data-value="'Hammersmith One', sans-serif">Hammersmith One</a>
+                  <a class="fredoka" href="#" data-value="'Fredoka One', cursive">Fredoka One</a>
+                  <a class="gorditas" href="#" data-value="'Gorditas', cursive">Gorditas</a>
+                  <a class="pressstart" href="#" data-value="'Press Start 2P', cursive">Press Start 2P</a>
+		</li>
+	</ul>
+</div><div class="btn-group">
+	<a class="btn btn-small btn-inverse dropdown-toggle" data-toggle="dropdown" title="Choose the font size"><span class="text fontSizeReadout">72</span>
+		<span class="caret"></span></a>
+	<ul class="dropdown-menu menuBarOption" data-option="fontSize">
+		<li>
+                  <a href="#" data-value="144">144</a>
+                  <a href="#" data-value="96">96</a>
+                  <a href="#" data-value="72">72</a>
+			<a href="#" data-value="64">64</a>
+                  <a href="#" data-value="48">48</a>
+                  <a href="#" data-value="36">36</a>
+                  <a href="#" data-value="24">24</a>
+                  <a href="#" data-value="16">16</a>
+                  <a href="#" data-value="12">12</a>
+                  <a href="#" data-value="8">8</a>
+		</li>
+     	</ul>
+</div><div class="btn-group"><input value="#333333" style="display: none;" class="color-chooser colorpicker etch-color"><div class="sp-replacer sp-dark"><div class="sp-preview"><div style="background-color: rgb(51, 51, 51);" class="sp-preview-inner"></div></div><div class="sp-dd">▼</div></div></div></div><div style="position: absolute; top: 349.667px; left: 1371px;" class="sp-container sp-dark sp-hidden"><div class="sp-palette-container"><div class="sp-palette sp-thumb sp-cf"><div class="sp-cf sp-palette-row sp-palette-row-0"></div><div class="sp-cf sp-palette-row sp-palette-row-selection"><span title="rgb(51, 51, 51)" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div></div><div class="sp-picker-container"><div class="sp-top sp-cf"><div class="sp-fill"></div><div class="sp-top-inner"><div style="background-color: rgb(255, 0, 0);" class="sp-color"><div class="sp-sat"><div class="sp-val"><div style="top: 103.8px; left: -5px;" class="sp-dragger"></div></div></div></div><div class="sp-hue"><div style="top: -3px;" class="sp-slider"></div></div></div><div style="" class="sp-alpha"><div class="sp-alpha-inner"><div style="left: 169px;" class="sp-alpha-handle"></div></div></div></div><div class="sp-input-container sp-cf"><input value="#333333" class="sp-input" spellcheck="false" type="text"></div><div class="sp-initial sp-thumb sp-cf"><div class="sp-cf sp-palette-row-initial"><span title="rgb(51, 51, 51)" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span><span title="rgb(51, 51, 51)" data-color="rgb(51, 51, 51)" class="sp-thumb-el sp-thumb-dark sp-thumb-active"><span class="sp-thumb-inner" style="background-color:rgb(51, 51, 51);"></span></span></div></div></div></div><div class="modal-backdrop  in"></div></body></html>
