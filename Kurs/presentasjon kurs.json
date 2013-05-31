@@ -1,0 +1,265 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 23,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kurs og arrangement i 2013<br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 30,
+      "y": 80
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 146,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Temadager Vedlikehold, <br></li></ul>&nbsp; Gardermoen, 3-4 sept",
+          "size": 84,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 30,
+      "y": 292
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 49,
+          "y": 241,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Kurs i linjeprosjektering, <br></li></ul>&nbsp; Flå, 16-17. sept",
+          "size": 87,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 31,
+      "y": 493
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 206,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Veilysmodul, <br></li></ul>Oslo, 25-26. sept.",
+          "size": 120,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.02,
+      "rotateY": 1.06,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 190,
+      "y": 493
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 38,
+          "y": 189,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>REN Teknisk konferanse,</li></ul>&nbsp;Gardermoen, 15-16 okt.<br>",
+          "size": 80,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 1.08,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 188,
+      "y": 608
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 59,
+          "y": 245,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Temadag Transformatorstasjoner, <br></li></ul>&nbsp;&nbsp; Bergen, 6-7 nov.",
+          "size": 59,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": -0.06,
+      "rotateY": 1.1,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 185,
+      "y": 727
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 34,
+          "y": 376,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Driftslederforum, <br></li></ul>Trondheim, 13-14. nov.",
+          "size": 90,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 187,
+      "y": 822
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 36,
+          "y": 292,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Temadag Smartgrid, </li></ul>&nbsp;Gardermoen, 27-28 nov.",
+          "size": 84,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 168,
+      "y": 903
+    },
+    {
+      "num": 7,
+      "components": [],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 168,
+      "y": 938
+    }
+  ],
+  "background": "defaultbg",
+  "activeSlide": {
+    "num": 6,
+    "components": [
+      {
+        "TextBox": {},
+        "x": 45,
+        "y": 206,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<ul><li>Veilysmodul, <br></li></ul>Oslo, 25-26. sept.",
+        "size": 120,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": -0.02,
+    "rotateY": 1.06,
+    "rotateZ": 0,
+    "selected": true,
+    "active": true,
+    "x": 190,
+    "y": 493
+  },
+  "fileName": "presentasjon kurs",
+  "overviewX": 110,
+  "overviewY": 509,
+  "surface": "surf-grad-bg-darkgreen"
+}
