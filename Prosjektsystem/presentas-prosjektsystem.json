@@ -1,0 +1,441 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 55,
+          "y": 80,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Prosjektsystem<br>",
+          "size": 138,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 66,
+          "y": 336,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">Web - basert <br>budsjett og prosjektkalkyle<br></font>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://www.ren.no/Prosjektsystem/css/images/prosjektsystem.png",
+          "type": "Image",
+          "x": 267,
+          "y": 610,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "active": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 30,
+      "y": 80
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 44,
+          "y": 26,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "To hovedfunksjoner<br>",
+          "size": 104,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 870,
+      "y": 80
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 46,
+          "y": 78,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Budsjettkalkyle -</li></ul>&nbsp;&nbsp; rask oversikt over budsjett<br>",
+          "size": 69,
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 135,
+          "y": 270,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'Hammersmith One', sans-serif\">Ingen detaljkunnskap nødvendig.<br>Enkelt.</font></i><br>",
+          "size": 49,
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 136,
+          "y": 426,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'Hammersmith One', sans-serif\">God treffsikkerhet på grovestimater</font></i><br>",
+          "size": 36,
+          "selected": false,
+          "active": false
+        },
+        {
+          "src": "http://i.imgur.com/mUe2tpo.png",
+          "type": "Image",
+          "x": 48,
+          "y": 508,
+          "scale": {
+            "x": 0.8720152817574021,
+            "y": 0.8720152817574021,
+            "width": 913,
+            "height": 196.20343839541547
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1150,
+      "y": 80
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 71,
+          "y": 60,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Prosjektkalkyle</li></ul>",
+          "size": 72,
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 135,
+          "y": 149,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'Hammersmith One', sans-serif\">Detaljert oversikt over innsatsfaktorer</font></i><br>",
+          "size": 47,
+          "selected": false,
+          "active": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1430,
+      "y": 80
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "src": "http://i.imgur.com/7RnQDyX.png",
+          "type": "Image",
+          "x": 43,
+          "y": 244,
+          "scale": {
+            "x": 0.8806112702960841,
+            "y": 0.8806112702960841,
+            "width": 922,
+            "height": 198.13753581661894
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 43,
+          "y": 68,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Prosjektsystemet kobler <br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 49,
+          "y": 487,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "arbeidsinnsats, materiell <br>og andre kostnadsfaktorer<br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 275,
+      "y": 79
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 39,
+          "y": 44,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kalkyler med arbeidskoder<br>er koblet<br>til RENblad<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/IeiZphx.png",
+          "type": "Image",
+          "x": 460,
+          "y": 147,
+          "scale": {
+            "x": 0.5057324840764331,
+            "y": 0.5057324840764331,
+            "width": 397,
+            "height": 503.20382165605093
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "skewY": 0
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 518,
+      "y": 80
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 340,
+          "y": 307,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\"><i>men det er valgfritt å bruke</i></font><br>",
+          "size": 53,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 55,
+          "y": 80,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Priser og påslag er basert på <br>data fra bransjen<br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 29,
+      "y": 347
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 45,
+          "y": 37,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Prosjektsystemet er<br>basert på maler<br>",
+          "size": 100,
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 57,
+          "y": 337,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<ul><li>Påslag</li></ul><ul><li>Priser</li></ul><ul><li>Materielloppbygging</li></ul>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 184,
+          "y": 651,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'Lato', sans-serif\">Selskapet har selv kontroll</font></i><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.79,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 299,
+      "y": 346
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 32,
+          "y": 297,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Prøv ut selv på <br>http://www.ren.no/Prosjektsystem<br>",
+          "size": 65,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true
+    }
+  ],
+  "background": "solid-bg-salmon",
+  "activeSlide": {
+    "num": 8,
+    "components": [
+      {
+        "TextBox": {},
+        "x": 32,
+        "y": 297,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Prøv ut selv på <br>http://www.ren.no/Prosjektsystem<br>",
+        "size": 65,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": 0,
+    "rotateZ": 0,
+    "selected": true,
+    "active": true
+  },
+  "fileName": "presentas-prosjektsystem",
+  "overviewX": 729.5,
+  "overviewY": 213
+}
