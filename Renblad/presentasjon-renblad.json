@@ -1,0 +1,480 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 234,
+          "y": 71,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "REN blad søk<br>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/pqlYWdb.png",
+          "type": "Image",
+          "x": 260,
+          "y": 232,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 431,
+      "y": 88
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 152,
+          "y": 26,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "REN blad gir bransjeanbefalinger...<br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/MKNu0sF.png",
+          "type": "Image",
+          "x": 349,
+          "y": 114,
+          "scale": {
+            "x": 0.6476624857468644,
+            "y": 0.6476624857468644,
+            "width": 568,
+            "height": 555.6944127708097
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/Bpu2jS0.png",
+          "type": "Image",
+          "x": 100,
+          "y": 114,
+          "scale": {
+            "x": 0.32263513513513514,
+            "y": 0.32263513513513514,
+            "width": 191,
+            "height": 271.01351351351354
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/GABklzm.png",
+          "type": "Image",
+          "x": 100,
+          "y": 398,
+          "scale": {
+            "x": 0.3237774030354132,
+            "y": 0.3237774030354132,
+            "width": 192.00000000000003,
+            "height": 272.2967959527825
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": -1200,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 1.57,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 552,
+      "y": 86
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "src": "http://i.imgur.com/aUZTOrt.png",
+          "type": "Image",
+          "x": 205,
+          "y": -27,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/qkP973r.png",
+          "type": "Image",
+          "x": 36,
+          "y": 528,
+          "scale": {
+            "x": 1.1763255240443897,
+            "y": 1.1763255240443897,
+            "width": 954.0000000000001,
+            "height": 196.44636251541309
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 73,
+          "y": 136,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...REN blad søk finner dem",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": -1200,
+      "impScale": 3,
+      "rotateX": -1.57,
+      "rotateY": 0,
+      "rotateZ": 1.57,
+      "selected": false,
+      "active": false,
+      "x": 430,
+      "y": 164
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 226,
+          "y": 100,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "REN blad søk er:<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 229,
+          "y": 254,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "- Lett tilgjengelig på nett<br>- Enkel å bruke<br>- Personlig<br>- Tilrettelagt for integrasjon med datasystemer<br>",
+          "size": 36,
+          "selected": false
+        }
+      ],
+      "z": -1200,
+      "impScale": 3,
+      "rotateX": -1.57,
+      "rotateY": 1.57,
+      "rotateZ": 1.57,
+      "selected": false,
+      "active": false,
+      "x": 321,
+      "y": 87
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 252,
+          "y": 82,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b>Bildesøk</b> for den visuelle...<br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/qDnfTXa.png",
+          "type": "Image",
+          "x": 147,
+          "y": 159,
+          "scale": {
+            "x": 1.1507064364207222,
+            "y": 1.1507064364207222,
+            "width": 733.0000000000001,
+            "height": 533.9277864992151
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0.79,
+      "selected": false,
+      "active": false,
+      "x": 360,
+      "y": 390
+    },
+    {
+      "num": 8,
+      "components": [
+        {
+          "src": "http://i.imgur.com/piBNxsr.png",
+          "type": "Image",
+          "x": 27,
+          "y": 438,
+          "scale": {
+            "x": 0.969758064516129,
+            "y": 0.969758064516129,
+            "width": 962,
+            "height": 298.68548387096774
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/qtBfccH.png",
+          "type": "Image",
+          "x": 28,
+          "y": 20,
+          "scale": {
+            "x": 0.6983154670750383,
+            "y": 0.6983154670750383,
+            "width": 456.00000000000006,
+            "height": 394.54823889739663
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 507,
+          "y": 30,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...<b>Historikk</b> for den<br>historie-intresserte...<br>",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -0.79,
+      "selected": false,
+      "active": false,
+      "x": 94,
+      "y": 391
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "src": "http://i.imgur.com/1jlva95.png",
+          "type": "Image",
+          "x": 489,
+          "y": 223,
+          "scale": {
+            "x": 0.6622734761120264,
+            "y": 0.6622734761120264,
+            "width": 402,
+            "height": 381.46952224052717
+          },
+          "imageType": "PNG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 244,
+          "y": 258,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...<b>Favoritter</b> og<b> Siste søk </b><br>for den gjenkommende...",
+          "size": 48,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -2.36,
+      "selected": false,
+      "active": false,
+      "x": 95,
+      "y": 658
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 128,
+          "y": 602,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "...og <b>Mest brukte</b> for den nysgjerrige<br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/fD5iObL.png",
+          "type": "Image",
+          "x": 279,
+          "y": 50,
+          "scale": {
+            "x": 0.8664440734557596,
+            "y": 0.8664440734557596,
+            "width": 519,
+            "height": 516.4006677796327
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": -3.93,
+      "selected": false,
+      "active": false,
+      "x": 361,
+      "y": 658
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 121,
+          "y": 51,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Selskapsvise kommentarer på forsiden<br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/AUzVkuI.png",
+          "type": "Image",
+          "x": 297,
+          "y": 123,
+          "scale": {
+            "x": 0.7966417910447762,
+            "y": 0.7966417910447762,
+            "width": 427,
+            "height": 605.4477611940299
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 1.57,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 800,
+      "y": 478
+    },
+    {
+      "num": 9,
+      "components": [
+        {
+          "src": "http://i.imgur.com/9aFepEr.png",
+          "type": "Image",
+          "x": 345,
+          "y": 255,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": -1.57,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 1040,
+      "y": 479
+    }
+  ],
+  "background": "solid-bg-smoke",
+  "activeSlide": {
+    "num": 9,
+    "components": [
+      {
+        "src": "http://i.imgur.com/9aFepEr.png",
+        "type": "Image",
+        "x": 345,
+        "y": 255,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "imageType": "PNG",
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0,
+    "rotateY": -1.57,
+    "rotateZ": 0,
+    "selected": true,
+    "active": true,
+    "x": 1040,
+    "y": 479
+  },
+  "fileName": "renblad.strut",
+  "overviewX": 567,
+  "overviewY": 372
+}
