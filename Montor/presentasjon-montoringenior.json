@@ -1,0 +1,370 @@
+{
+  "slides": [
+    {
+      "num": 0,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 35,
+          "y": 100,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Montør til <br>Ingeniør<br>",
+          "size": 230,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 331,
+      "y": 21
+    },
+    {
+      "num": 1,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 38,
+          "y": 143,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kraftsektoren har et <br>stort behov for ingeniører<br>",
+          "size": 72,
+          "selected": false
+        },
+        {
+          "src": "https://si0.twimg.com/profile_images/1308914562/helpful_engineer_cop33y.jpg",
+          "type": "Image",
+          "x": 435,
+          "y": 360,
+          "scale": {
+            "x": 0.638,
+            "y": 0.638,
+            "width": 319,
+            "height": 301.136
+          },
+          "imageType": "JPG",
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.79,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 42,
+      "y": 23
+    },
+    {
+      "num": 2,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 4,
+          "y": 236,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Kun 8 læresteder i <br>Norge tilbyr Ingeniør-<br>utdanning i elkraft<br>",
+          "size": 108,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.05,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 327,
+      "y": 268
+    },
+    {
+      "num": 3,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 37,
+          "y": 62,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "REN tar ansvar<br>",
+          "size": 82,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 438,
+          "y": 162,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">og utdanner montører <br>til ingeniører</font><br>",
+          "size": 57,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 16,
+          "y": 498,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Høyskolen i Bergen har<br>faglig ansvar<br>",
+          "size": 95,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.4,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 32,
+      "y": 460
+    },
+    {
+      "num": 4,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 50,
+          "y": 21,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">\"Montør til Ingeniør\"</font><br>",
+          "size": 96,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 386,
+          "y": 193,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">plass til inntill 24 studenter</font><br>",
+          "size": 48,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 18,
+          "y": 331,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i>På bakgrunn av realkompetanse<br>er Energimontører kvalifisert <br>for opptak</i><br>",
+          "size": 68,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.4,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 844,
+      "y": 610
+    },
+    {
+      "num": 5,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 29,
+          "y": 5,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Studiet tar 4 år<br>",
+          "size": 145,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 387,
+          "y": 271,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">Eller 3 år hvis du har teknisk fagskole</font><br>",
+          "size": 36,
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 44,
+          "y": 485,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i>Studer mens du jobber.</i><br>",
+          "size": 72,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0.79,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 1031,
+      "y": 362
+    },
+    {
+      "num": 7,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 42,
+          "y": 213,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<i><font face=\"'Hammersmith One', sans-serif\">Full finansieringsplan <br>gjennom REN</font></i><br>",
+          "size": 97,
+          "selected": false,
+          "active": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 1.22,
+      "rotateY": 0.79,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 950,
+      "y": 478
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "TextBox": {},
+          "x": 50,
+          "y": 239,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<b><i>Neste opptak 2014</i></b><br>",
+          "size": 105,
+          "selected": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": false,
+      "active": false,
+      "x": 1990,
+      "y": 360
+    }
+  ],
+  "activeSlide": {
+    "num": 5,
+    "components": [
+      {
+        "TextBox": {},
+        "x": 29,
+        "y": 5,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "Studiet tar 4 år<br>",
+        "size": 145,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 387,
+        "y": 271,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<font face=\"'Hammersmith One', sans-serif\">Eller 3 år hvis du har teknisk fagskole</font><br>",
+        "size": 36,
+        "selected": false
+      },
+      {
+        "TextBox": {},
+        "x": 44,
+        "y": 485,
+        "scale": {
+          "x": 1,
+          "y": 1
+        },
+        "type": "TextBox",
+        "text": "<i>Studer mens du jobber.</i><br>",
+        "size": 72,
+        "selected": false
+      }
+    ],
+    "z": 0,
+    "impScale": 3,
+    "rotateX": 0.79,
+    "rotateY": 0.79,
+    "rotateZ": 0,
+    "selected": true,
+    "active": true,
+    "x": 1031,
+    "y": 362
+  },
+  "fileName": "presentasjon-montoringenior",
+  "surface": "surf-grad-bg-smoke",
+  "overviewX": 1011,
+  "overviewY": 315.5
+}
