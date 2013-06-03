@@ -4,31 +4,55 @@
       "num": 0,
       "components": [
         {
-          "src": "http://www.ren.no/ren2-theme/css/images/renlogo.png",
-          "type": "Image",
-          "x": 369,
-          "y": 325,
-          "scale": {
-            "x": 1.511764705882353,
-            "y": 1.511764705882353,
-            "width": 257,
-            "height": 86.17058823529412
-          },
-          "imageType": "PNG",
-          "selected": false
-        },
-        {
           "TextBox": {},
-          "x": 42,
-          "y": 81,
+          "x": 214,
+          "y": 28,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<font face=\"'Lato', sans-serif\">Rasjonell Elektrisk Nettvirksomhet<br></font>",
+          "text": "<font face=\"'Lato', sans-serif\">Rasjonell Elektrisk<br>&nbsp;Nettvirksomhet<br></font>",
           "size": 62,
           "selected": false
+        },
+        {
+          "src": "http://www.ren.no/image/image_gallery?uuid=d4c497b8-abe9-484e-b59d-5ed208bfaa31&groupId=10206&t=1349259881495",
+          "type": "Image",
+          "x": 541,
+          "y": 526,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "NO/IMAGE/IMAGE_GALLERY",
+          "selected": false
+        },
+        {
+          "src": "https://lh3.googleusercontent.com/-nPjXflLmW5Q/AAAAAAAAAAI/AAAAAAAAACE/xc2ZHuOX7yo/photo.jpg",
+          "type": "Image",
+          "x": 32,
+          "y": 27,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "TextBox": {},
+          "x": 4,
+          "y": 342,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "Velkommen til REN Metodedager!<br>",
+          "size": 66,
+          "selected": false,
+          "active": false
         }
       ],
       "z": 0,
@@ -59,8 +83,8 @@
         },
         {
           "TextBox": {},
-          "x": 46,
-          "y": 98,
+          "x": 61,
+          "y": 93,
           "scale": {
             "x": 1,
             "y": 1
@@ -72,27 +96,27 @@
         },
         {
           "TextBox": {},
-          "x": 344,
-          "y": 359,
+          "x": 474,
+          "y": 426,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "13 ansatte<br>",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">13 ansatte</font><br>",
           "size": 72,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 264,
-          "y": 520,
+          "x": 474,
+          "y": 517,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "Eid av bransjen<br>",
+          "text": "<font face=\"'Hammersmith One', sans-serif\">Eid av bransjen</font><br>",
           "size": 72,
           "selected": false
         }
@@ -112,15 +136,29 @@
       "components": [
         {
           "TextBox": {},
-          "x": 63,
-          "y": 144,
+          "x": 22,
+          "y": 17,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "RENs anbefalinger <br>&nbsp; og retningslinjer<br>&nbsp; &nbsp;&nbsp; er førende<br>",
+          "text": "RENs anbefalinger <br>og retningslinjer<br>er førende<br>",
           "size": 107,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/ORGPjgg.png",
+          "type": "Image",
+          "x": 565,
+          "y": 265,
+          "scale": {
+            "x": 0.4764331210191083,
+            "y": 0.4764331210191083,
+            "width": 374,
+            "height": 474.0509554140127
+          },
+          "imageType": "PNG",
           "selected": false
         }
       ],
@@ -139,28 +177,29 @@
       "components": [
         {
           "TextBox": {},
-          "x": 60,
-          "y": 45,
+          "x": 55,
+          "y": 70,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "Web-baserte systemer som<br>",
-          "size": 72,
+          "text": "Web-baserte tjenester<br>",
+          "size": 91,
           "selected": false
         },
         {
-          "TextBox": {},
-          "x": 79,
-          "y": 259,
+          "src": "http://i.imgur.com/geG9fw0.png",
+          "type": "Image",
+          "x": 292,
+          "y": 251,
           "scale": {
-            "x": 1,
-            "y": 1
+            "x": 1.326470588235294,
+            "y": 1.326470588235294,
+            "width": 451,
+            "height": 492.1205882352941
           },
-          "type": "TextBox",
-          "text": "<ul><li>Prosjektsystem</li><li>RENblad</li><li>Tilstandskontroll<br></li></ul>",
-          "size": 123,
+          "imageType": "PNG",
           "selected": false
         }
       ],
@@ -173,31 +212,6 @@
       "active": false,
       "x": 794,
       "y": 466
-    },
-    {
-      "num": 4,
-      "components": [
-        {
-          "src": "http://www.ren.no/",
-          "type": "WebFrame",
-          "x": 20,
-          "y": 3,
-          "scale": {
-            "x": 1,
-            "y": 1
-          },
-          "selected": false
-        }
-      ],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0.35,
-      "rotateY": 0.78,
-      "rotateZ": 0.23,
-      "selected": false,
-      "active": false,
-      "x": 1068,
-      "y": 480
     },
     {
       "num": 5,
@@ -235,8 +249,8 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "selected": true,
-      "active": true,
+      "selected": false,
+      "active": false,
       "x": 1372,
       "y": 476
     },
@@ -245,8 +259,8 @@
       "components": [
         {
           "TextBox": {},
-          "x": 6,
-          "y": 53,
+          "x": 8,
+          "y": 68,
           "scale": {
             "x": 1,
             "y": 1
@@ -258,16 +272,29 @@
         },
         {
           "TextBox": {},
-          "x": 253,
-          "y": 439,
+          "x": 143,
+          "y": 469,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "Kursavtaler med <br>opplæringsplan<br>",
-          "size": 72,
+          "text": "<font face=\"'Hammersmith One', sans-serif\">Kursavtaler med <br>opplæringsplan<br></font>",
+          "size": 105,
           "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/k327a3T.png",
+          "type": "Image",
+          "x": 183,
+          "y": 172,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "active": false
         }
       ],
       "z": 0,
@@ -279,38 +306,55 @@
       "active": false,
       "x": 990,
       "y": 240
+    },
+    {
+      "num": 6,
+      "components": [
+        {
+          "src": "https://lh3.googleusercontent.com/-nPjXflLmW5Q/AAAAAAAAAAI/AAAAAAAAACE/xc2ZHuOX7yo/photo.jpg",
+          "type": "Image",
+          "x": 334,
+          "y": 213,
+          "scale": {
+            "x": 2.220125786163522,
+            "y": 2.220125786163522,
+            "width": 353,
+            "height": 350.7798742138365
+          },
+          "imageType": "JPG",
+          "selected": false,
+          "active": false
+        }
+      ],
+      "z": 0,
+      "impScale": 3,
+      "rotateX": 0,
+      "rotateY": 0,
+      "rotateZ": 0,
+      "selected": true,
+      "active": true,
+      "x": 877,
+      "y": 24
     }
   ],
   "background": "defaultbg",
   "activeSlide": {
-    "num": 5,
+    "num": 6,
     "components": [
       {
-        "TextBox": {},
-        "x": 71,
-        "y": 31,
-        "scale": {
-          "x": 1,
-          "y": 1
-        },
-        "type": "TextBox",
-        "text": "Kompetanseutvikling",
-        "size": 94,
-        "selected": false
-      },
-      {
-        "src": "http://i.imgur.com/ZcKD8Xr.jpg",
+        "src": "https://lh3.googleusercontent.com/-nPjXflLmW5Q/AAAAAAAAAAI/AAAAAAAAACE/xc2ZHuOX7yo/photo.jpg",
         "type": "Image",
-        "x": 53,
-        "y": 165,
+        "x": 334,
+        "y": 213,
         "scale": {
-          "x": 0.71796875,
-          "y": 0.71796875,
-          "width": 919,
-          "height": 608.8375000000001
+          "x": 2.220125786163522,
+          "y": 2.220125786163522,
+          "width": 353,
+          "height": 350.7798742138365
         },
         "imageType": "JPG",
-        "selected": false
+        "selected": false,
+        "active": false
       }
     ],
     "z": 0,
@@ -320,11 +364,11 @@
     "rotateZ": 0,
     "selected": true,
     "active": true,
-    "x": 1372,
-    "y": 476
+    "x": 877,
+    "y": 24
   },
   "fileName": "Presentasjon Metodedager",
   "surface": "surf-grad-bg-smoke",
   "overviewX": 937,
-  "overviewY": 253
+  "overviewY": 250
 }

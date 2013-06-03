@@ -58,8 +58,8 @@
       "components": [
         {
           "TextBox": {},
-          "x": 44,
-          "y": 26,
+          "x": 35,
+          "y": 31,
           "scale": {
             "x": 1,
             "y": 1
@@ -68,95 +68,25 @@
           "text": "To hovedfunksjoner<br>",
           "size": 104,
           "selected": false
-        }
-      ],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0,
-      "rotateY": 0.79,
-      "rotateZ": 0,
-      "selected": false,
-      "active": false,
-      "x": 870,
-      "y": 80
-    },
-    {
-      "num": 4,
-      "components": [
+        },
         {
           "TextBox": {},
-          "x": 46,
-          "y": 78,
+          "x": 52,
+          "y": 210,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<ul><li>Budsjettkalkyle -</li></ul>&nbsp;&nbsp; rask oversikt over budsjett<br>",
+          "text": "<ul><li>Budsjettkalkyle <br></li></ul>",
           "size": 69,
           "selected": false,
           "active": false
         },
         {
           "TextBox": {},
-          "x": 135,
-          "y": 270,
-          "scale": {
-            "x": 1,
-            "y": 1
-          },
-          "type": "TextBox",
-          "text": "<i><font face=\"'Hammersmith One', sans-serif\">Ingen detaljkunnskap nødvendig.<br>Enkelt.</font></i><br>",
-          "size": 49,
-          "selected": false,
-          "active": false
-        },
-        {
-          "TextBox": {},
-          "x": 136,
-          "y": 426,
-          "scale": {
-            "x": 1,
-            "y": 1
-          },
-          "type": "TextBox",
-          "text": "<i><font face=\"'Hammersmith One', sans-serif\">God treffsikkerhet på grovestimater</font></i><br>",
-          "size": 36,
-          "selected": false,
-          "active": false
-        },
-        {
-          "src": "http://i.imgur.com/mUe2tpo.png",
-          "type": "Image",
-          "x": 48,
-          "y": 508,
-          "scale": {
-            "x": 0.8720152817574021,
-            "y": 0.8720152817574021,
-            "width": 913,
-            "height": 196.20343839541547
-          },
-          "imageType": "PNG",
-          "selected": false
-        }
-      ],
-      "z": 0,
-      "impScale": 3,
-      "rotateX": 0,
-      "rotateY": 0.79,
-      "rotateZ": 0,
-      "selected": false,
-      "active": false,
-      "x": 1150,
-      "y": 80
-    },
-    {
-      "num": 5,
-      "components": [
-        {
-          "TextBox": {},
-          "x": 71,
-          "y": 60,
+          "x": 41,
+          "y": 367,
           "scale": {
             "x": 1,
             "y": 1
@@ -169,8 +99,8 @@
         },
         {
           "TextBox": {},
-          "x": 135,
-          "y": 149,
+          "x": 124,
+          "y": 464,
           "scale": {
             "x": 1,
             "y": 1
@@ -178,6 +108,34 @@
           "type": "TextBox",
           "text": "<i><font face=\"'Hammersmith One', sans-serif\">Detaljert oversikt over innsatsfaktorer</font></i><br>",
           "size": 47,
+          "selected": false,
+          "active": false
+        },
+        {
+          "TextBox": {},
+          "x": 136,
+          "y": 286,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "type": "TextBox",
+          "text": "<font face=\"'Hammersmith One', sans-serif\"><i>rask oversikt over budsjett</i></font>",
+          "size": 60,
+          "selected": false
+        },
+        {
+          "src": "http://i.imgur.com/mUe2tpo.png",
+          "type": "Image",
+          "x": 36,
+          "y": 539,
+          "scale": {
+            "x": 0.8987583572110793,
+            "y": 0.8987583572110793,
+            "width": 941,
+            "height": 202.22063037249285
+          },
+          "imageType": "PNG",
           "selected": false,
           "active": false
         }
@@ -189,51 +147,78 @@
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 1430,
-      "y": 80
+      "x": 266,
+      "y": 79
     },
     {
       "num": 2,
       "components": [
         {
-          "src": "http://i.imgur.com/7RnQDyX.png",
-          "type": "Image",
-          "x": 43,
-          "y": 244,
-          "scale": {
-            "x": 0.8806112702960841,
-            "y": 0.8806112702960841,
-            "width": 922,
-            "height": 198.13753581661894
-          },
-          "imageType": "PNG",
-          "selected": false,
-          "active": false
-        },
-        {
           "TextBox": {},
-          "x": 43,
-          "y": 68,
+          "x": 40,
+          "y": 32,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
           "text": "Prosjektsystemet kobler <br>",
-          "size": 72,
+          "size": 86,
           "selected": false
         },
         {
           "TextBox": {},
-          "x": 49,
-          "y": 487,
+          "x": 107,
+          "y": 484,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
           "text": "arbeidsinnsats, materiell <br>og andre kostnadsfaktorer<br>",
-          "size": 72,
+          "size": 65,
+          "selected": false
+        },
+        {
+          "src": "http://www.dagaliopplevelser.no/wp-content/uploads/2012/02/DSCF2074.jpg",
+          "type": "Image",
+          "x": 9,
+          "y": 229,
+          "scale": {
+            "x": 0.1494140625,
+            "y": 0.1494140625,
+            "width": 306,
+            "height": 229.5
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://upload.wikimedia.org/wikipedia/commons/d/d4/Kabeltrommel_mit_Teilnehmeranschlussleitung.jpg",
+          "type": "Image",
+          "x": 355,
+          "y": 228,
+          "scale": {
+            "x": 0.108309659090909,
+            "y": 0.108309659090909,
+            "width": 304.9999999999998,
+            "height": 228.74999999999983
+          },
+          "imageType": "JPG",
+          "selected": false
+        },
+        {
+          "src": "http://elanwellnesscenter.com/wp-content/uploads/2012/01/blank-clipboard-icon.jpg",
+          "type": "Image",
+          "x": 702,
+          "y": 228,
+          "scale": {
+            "x": 0.221875,
+            "y": 0.221875,
+            "width": 284,
+            "height": 227.2
+          },
+          "imageType": "JPG",
           "selected": false
         }
       ],
@@ -244,8 +229,8 @@
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 275,
-      "y": 79
+      "x": 597,
+      "y": 176
     },
     {
       "num": 1,
@@ -284,10 +269,10 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "selected": false,
-      "active": false,
-      "x": 518,
-      "y": 80
+      "selected": true,
+      "active": true,
+      "x": 596,
+      "y": 404
     },
     {
       "num": 6,
@@ -321,13 +306,13 @@
       ],
       "z": 0,
       "impScale": 3,
-      "rotateX": 0,
+      "rotateX": 0.79,
       "rotateY": 0,
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 29,
-      "y": 347
+      "x": 960,
+      "y": 404
     },
     {
       "num": 7,
@@ -375,13 +360,13 @@
       ],
       "z": 0,
       "impScale": 3,
-      "rotateX": 0.79,
+      "rotateX": 1.57,
       "rotateY": 0,
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 299,
-      "y": 346
+      "x": 954,
+      "y": 236
     },
     {
       "num": 8,
@@ -398,6 +383,21 @@
           "text": "Prøv ut selv på <br>http://www.ren.no/Prosjektsystem<br>",
           "size": 65,
           "selected": false
+        },
+        {
+          "src": "http://www.ren.no/Prosjektsystem/css/images/prosjektsystem.png",
+          "type": "Image",
+          "x": 108,
+          "y": 182,
+          "scale": {
+            "x": 1.579961464354528,
+            "y": 1.579961464354528,
+            "width": 820,
+            "height": 52.13872832369942
+          },
+          "imageType": "PNG",
+          "selected": false,
+          "active": false
         }
       ],
       "z": 0,
@@ -405,26 +405,43 @@
       "rotateX": 0,
       "rotateY": 0,
       "rotateZ": 0,
-      "selected": true,
-      "active": true
+      "selected": false,
+      "active": false,
+      "x": 2270,
+      "y": 360
     }
   ],
   "background": "solid-bg-salmon",
   "activeSlide": {
-    "num": 8,
+    "num": 1,
     "components": [
       {
         "TextBox": {},
-        "x": 32,
-        "y": 297,
+        "x": 39,
+        "y": 44,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "Prøv ut selv på <br>http://www.ren.no/Prosjektsystem<br>",
-        "size": 65,
+        "text": "Kalkyler med arbeidskoder<br>er koblet<br>til RENblad<br>",
+        "size": 72,
         "selected": false
+      },
+      {
+        "src": "http://i.imgur.com/IeiZphx.png",
+        "type": "Image",
+        "x": 460,
+        "y": 147,
+        "scale": {
+          "x": 0.5057324840764331,
+          "y": 0.5057324840764331,
+          "width": 397,
+          "height": 503.20382165605093
+        },
+        "imageType": "PNG",
+        "selected": false,
+        "skewY": 0
       }
     ],
     "z": 0,
@@ -433,9 +450,11 @@
     "rotateY": 0,
     "rotateZ": 0,
     "selected": true,
-    "active": true
+    "active": true,
+    "x": 596,
+    "y": 404
   },
   "fileName": "presentas-prosjektsystem",
-  "overviewX": 729.5,
-  "overviewY": 213
+  "overviewX": 1150,
+  "overviewY": 241.5
 }

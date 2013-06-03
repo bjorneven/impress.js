@@ -5,8 +5,8 @@
       "components": [
         {
           "TextBox": {},
-          "x": 35,
-          "y": 100,
+          "x": 15,
+          "y": 213,
           "scale": {
             "x": 1,
             "y": 1
@@ -14,6 +14,20 @@
           "type": "TextBox",
           "text": "Montør til <br>Ingeniør<br>",
           "size": 230,
+          "selected": false
+        },
+        {
+          "src": "http://b.vimeocdn.com/ps/278/382/2783821_75.jpg",
+          "type": "Image",
+          "x": 23,
+          "y": 19,
+          "scale": {
+            "x": 2.16,
+            "y": 2.16,
+            "width": 162,
+            "height": 162
+          },
+          "imageType": "JPG",
           "selected": false
         }
       ],
@@ -32,22 +46,22 @@
       "components": [
         {
           "TextBox": {},
-          "x": 38,
-          "y": 143,
+          "x": 150,
+          "y": 136,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "Kraftsektoren har et <br>stort behov for ingeniører<br>",
+          "text": "Kraftsektoren har et <br><b>stort </b>behov for ingeniører<br>",
           "size": 72,
           "selected": false
         },
         {
           "src": "https://si0.twimg.com/profile_images/1308914562/helpful_engineer_cop33y.jpg",
           "type": "Image",
-          "x": 435,
-          "y": 360,
+          "x": 148,
+          "y": 335,
           "scale": {
             "x": 0.638,
             "y": 0.638,
@@ -136,6 +150,20 @@
           "text": "Høyskolen i Bergen har<br>faglig ansvar<br>",
           "size": 95,
           "selected": false
+        },
+        {
+          "src": "http://web.ift.uib.no/~lipniack/fysikermotet2013/LogoHiB.gif",
+          "type": "Image",
+          "x": 19,
+          "y": 268,
+          "scale": {
+            "x": 0.2622516556291391,
+            "y": 0.2622516556291391,
+            "width": 396.00000000000006,
+            "height": 212.16158940397352
+          },
+          "imageType": "GIF",
+          "selected": false
         }
       ],
       "z": 0,
@@ -194,12 +222,12 @@
       "z": 0,
       "impScale": 3,
       "rotateX": 1.4,
-      "rotateY": 0.79,
+      "rotateY": 0,
       "rotateZ": 0,
-      "selected": false,
-      "active": false,
-      "x": 844,
-      "y": 610
+      "selected": true,
+      "active": true,
+      "x": 807,
+      "y": 69
     },
     {
       "num": 5,
@@ -232,35 +260,47 @@
         },
         {
           "TextBox": {},
-          "x": 44,
-          "y": 485,
+          "x": 61,
+          "y": 461,
           "scale": {
             "x": 1,
             "y": 1
           },
           "type": "TextBox",
-          "text": "<i>Studer mens du jobber.</i><br>",
+          "text": "<i>Studér mens du jobber.</i><br>",
           "size": 72,
+          "selected": false
+        },
+        {
+          "src": "http://www.hib.no/aktuelt/nyheter/2013/Bilder/ingeniorer250.jpg",
+          "type": "Image",
+          "x": 72,
+          "y": 196,
+          "scale": {
+            "x": 1,
+            "y": 1
+          },
+          "imageType": "JPG",
           "selected": false
         }
       ],
       "z": 0,
       "impScale": 3,
       "rotateX": 0.79,
-      "rotateY": 0.79,
+      "rotateY": 0,
       "rotateZ": 0,
-      "selected": true,
-      "active": true,
-      "x": 1031,
-      "y": 362
+      "selected": false,
+      "active": false,
+      "x": 1131,
+      "y": 66
     },
     {
       "num": 7,
       "components": [
         {
           "TextBox": {},
-          "x": 42,
-          "y": 213,
+          "x": 31,
+          "y": 21,
           "scale": {
             "x": 1,
             "y": 1
@@ -270,17 +310,31 @@
           "size": 97,
           "selected": false,
           "active": false
+        },
+        {
+          "src": "http://i.imgur.com/auwANpf.png",
+          "type": "Image",
+          "x": 144,
+          "y": 285,
+          "scale": {
+            "x": 0.5374449339207048,
+            "y": 0.5374449339207048,
+            "width": 731.9999999999999,
+            "height": 463.27753303964755
+          },
+          "imageType": "PNG",
+          "selected": false
         }
       ],
       "z": 0,
       "impScale": 3,
       "rotateX": 1.22,
-      "rotateY": 0.79,
+      "rotateY": 0,
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 950,
-      "y": 478
+      "x": 1130,
+      "y": 272
     },
     {
       "num": 6,
@@ -306,65 +360,65 @@
       "rotateZ": 0,
       "selected": false,
       "active": false,
-      "x": 1990,
-      "y": 360
+      "x": 1457,
+      "y": 71
     }
   ],
   "activeSlide": {
-    "num": 5,
+    "num": 4,
     "components": [
       {
         "TextBox": {},
-        "x": 29,
-        "y": 5,
+        "x": 50,
+        "y": 21,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "Studiet tar 4 år<br>",
-        "size": 145,
+        "text": "<font face=\"'Hammersmith One', sans-serif\">\"Montør til Ingeniør\"</font><br>",
+        "size": 96,
         "selected": false
       },
       {
         "TextBox": {},
-        "x": 387,
-        "y": 271,
+        "x": 386,
+        "y": 193,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<font face=\"'Hammersmith One', sans-serif\">Eller 3 år hvis du har teknisk fagskole</font><br>",
-        "size": 36,
+        "text": "<font face=\"'Hammersmith One', sans-serif\">plass til inntill 24 studenter</font><br>",
+        "size": 48,
         "selected": false
       },
       {
         "TextBox": {},
-        "x": 44,
-        "y": 485,
+        "x": 18,
+        "y": 331,
         "scale": {
           "x": 1,
           "y": 1
         },
         "type": "TextBox",
-        "text": "<i>Studer mens du jobber.</i><br>",
-        "size": 72,
+        "text": "<i>På bakgrunn av realkompetanse<br>er Energimontører kvalifisert <br>for opptak</i><br>",
+        "size": 68,
         "selected": false
       }
     ],
     "z": 0,
     "impScale": 3,
-    "rotateX": 0.79,
-    "rotateY": 0.79,
+    "rotateX": 1.4,
+    "rotateY": 0,
     "rotateZ": 0,
     "selected": true,
     "active": true,
-    "x": 1031,
-    "y": 362
+    "x": 807,
+    "y": 69
   },
   "fileName": "presentasjon-montoringenior",
   "surface": "surf-grad-bg-smoke",
-  "overviewX": 1011,
-  "overviewY": 315.5
+  "overviewX": 744.5,
+  "overviewY": 240.5
 }
